@@ -7,7 +7,7 @@
   display: flex;
   padding: 5px;
   color: white;
-  padding-left: 110px;
+  padding-left: 150px;
   width: 60%;
   cursor: pointer;
 }
@@ -23,18 +23,13 @@
   color: white;
   align-items: center;
 }
-.nav-link,
-#startBtn,
-.downloadBtn,
-.downBtn {
+.nav-link, #startBtn, .downloadBtn, .downBtn {
   font-family: var(--font-OpenSans);
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
-.modal-title,
-.tabBtn,
-.title {
+.modal-title, .tabBtn, .title {
   font-family: var(--font-OpenSans);
   font-weight: bold;
   font-style: normal;
@@ -43,9 +38,11 @@
 .downBtn {
   background-color: transparent;
   color: white;
-  padding: 5px 25px 5px 25px;
+  padding: 15px 25px 15px 25px;
   border-color: white;
   border-style: solid;
+  width: 170px;
+  font-size: 20px;
 }
 .downBtn:hover {
   background-color: white;
@@ -53,10 +50,7 @@
   opacity: 0.8;
   outline: none;
 }
-.downBtn,
-#startBtn,
-.tabBtn,
-.downloadBtn {
+.downBtn, #startBtn, .tabBtn, .downloadBtn {
   transition: all 0.2s linear;
 }
 .nav-link {
@@ -65,22 +59,24 @@
 .nav-link:hover {
   color: rgb(254, 152, 85);
 }
+.first-body,.firstBodyImg,.second-body,.third-body,.fifth-body,.sixth-body {
+  height: 100%;
+}
 .first-body {
   background-color: black;
-  height: 70vh;
   display: flex;
   position: relative;
 }
 .firstBodyImg {
   width: 100%;
-  height: 100%;
 }
 .logo-body {
   display: flex;
+  margin-bottom: 10px;
 }
 .firstbodyleft {
-  padding: 50px;
-  padding-left: 110px;
+  padding: 90px;
+  padding-left: 140px;
   width: 50%;
   color: white;
   position: absolute;
@@ -96,9 +92,13 @@
   color: var(--button-background);
 }
 .bodyHr {
-  margin-right: 600px;
+  margin-right: 500px;
   opacity: 1;
   border-radius: 10px;
+  margin-bottom: 40px;
+}
+.firstText{
+  margin-bottom: 60px;
 }
 .modal-title {
   color: rgb(95, 95, 95);
@@ -109,13 +109,13 @@
   color: var(--button-background);
 }
 .firstbodyright {
-  top: 100px;
+  top: 150px;
   right: 180px;
   position: absolute;
 }
 .modal-trial {
   background-color: white;
-  width: 350px;
+  width: 400px;
   border-radius: 5px;
 }
 .modal-header {
@@ -124,20 +124,14 @@
 }
 .modal-body {
   padding: 30px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
-#usernames,
-#email,
-#password {
-  margin-bottom: 40px;
+#usernames, #email, #password {
+  margin-bottom: 70px;
   outline: none;
-  width: 270px;
+  width: 300px;
 }
-#usernames,
-#email,
-#password,
-.textarea,
-.contact-input {
+#usernames, #email, #password, .textarea, .contact-input {
   border-top: 1px;
   border-left: 1px;
   border-right: 1px;
@@ -148,27 +142,29 @@
   padding: 15px;
   background-color: var(--button-background);
   color: white;
+  font-size: 20px;
 }
 #startBtn:hover {
   background-color: rgb(189, 103, 41);
 }
 .second-body {
   background-color: var(--primary-background-color);
-  height: 55vh;
   display: flex;
   padding-left: 30px;
 }
 .menu-body {
   display: flex;
   flex-direction: column;
-  padding: 60px;
-  width: 260px;
+  padding: 120px 0px 0px 100px;
+  width: 200px;
+  margin-right: 50px;
 }
 .mainSecondBody {
-  width: 600px;
+  width: 300px;
+  margin-right: 200px;
 }
 .tabBtn {
-  height: 200px;
+  height: 150px;
   border: white;
   background-color: rgb(51, 51, 51);
   color: white;
@@ -179,27 +175,28 @@
 }
 #collapseWidthExample {
   width: 700px;
-  padding: 70px;
+  padding: 120px;
   padding-left: 30px;
 }
 .downloadBtn {
   border: none;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 50px;
   background-color: var(--button-background);
   color: white;
   border-radius: 5px;
   width: 150px;
+  height: 60px;
 }
 .downloadBtn:hover {
   background-color: rgb(189, 103, 41);
 }
 .secondBodyImg {
   margin: 100px;
+  width: 500px;
+  height: 350px;
   margin-left: 150px;
-  width: 350px;
-  height: 250px;
-  margin-left: 90px;
+  margin-top: 200px;
 }
 .third-body {
   padding: 70px 0px 70px 0px;
@@ -209,17 +206,15 @@
   width: 100%;
 }
 .cityImg {
-  width: 500px;
-  height: 350px;
   margin-left: 80px;
   border-radius: 10px;
 }
 .thirdBodyRight {
   width: 80%;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 .bodyHrs {
-  margin-right: 550px;
+  margin-right: 600px;
   opacity: 20;
   border-radius: 5px;
   color: var(--button-background);
@@ -228,6 +223,10 @@
   color: var(--text-color);
   font-family: var(--font-OpenSans);
   font-size: 15px;
+}
+.spaceText{
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .texts {
   color: var(--text-color);
@@ -238,10 +237,11 @@
   font-display: swap;
 }
 .title {
-  font-size: 20px;
+  font-size: 25px;
 }
 .thirdBodycontent {
   display: flex;
+  margin-bottom: 20px;
 }
 .thirdBodyIcon {
   margin-right: 30px;
@@ -249,7 +249,7 @@
 }
 .fourth-body {
   background-color: var(--primary-background-color);
-  height: 65vh;
+  height: 100%;
   display: flex;
 }
 .fourthBodyLeft {
@@ -257,7 +257,7 @@
   width: 50%;
 }
 .bodyHres {
-  margin-right: 500px;
+  margin-right: 420px;
   opacity: 20;
   border-radius: 5px;
   color: var(--button-background);
@@ -266,23 +266,20 @@
   padding: 100px;
 }
 .fifth-body {
-  height: 60vh;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 40px 100px 40px;
 }
 .fifthBody {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 50px;
 }
-.fifthBodyTitle,
-.sixthBodyTitle,
-.firstbody-content,
-.seventhBodyTitle {
-  font-size: 35px;
+.fifthBodyTitle, .sixthBodyTitle, .firstbody-content, .seventhBodyTitle {
+  font-size: 40px;
   font-family: var(--font-Raleway);
 }
 .firstbody-content {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 .sixthBodyTitle {
   color: white;
@@ -307,7 +304,7 @@
 .circleIcon {
   position: absolute;
   top: -25px;
-  left: 193px;
+  left: 190px;
 }
 .circleIconDown {
   position: absolute;
@@ -317,13 +314,10 @@
 .sixth-body {
   background-color: black;
   background-repeat: no-repeat;
-  height: 45vh;
   display: flex;
-  position: relative;
   margin: var(--primary-margin);
 }
 .sixthBodyImg {
-  position: absolute;
   width: 100%;
 }
 .sixthBodyContent {
@@ -346,6 +340,7 @@
   width: 130px;
 }
 .seventh-body {
+  height: 100%;
   margin-bottom: 40px;
 }
 .seventhBodyForm {

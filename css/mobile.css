@@ -2,14 +2,20 @@
   .first-body {
     display: block !important;
     height: 85vh;
+    position: relative;
   }
   .firstbodyleft {
-    margin-left: 10px !important;
     width: 100%;
     color: white;
+    padding: 30px 0px 0px 20px;
   }
   .firstBodyTitle {
     text-align: center;
+    padding: 0px 50px 0px 40px;
+
+  }
+  .firstbody-content{
+    margin-bottom: 5px;
   }
   .firstBodyImg {
     position: absolute;
@@ -23,12 +29,11 @@
     color: white;
     padding-left: 30px;
     padding-top: 10px;
-    width: 60%;
+    width: 85%;
     cursor: pointer;
   }
   .dropdown {
     display: block;
-    margin-left: 90px;
   }
   .dropdown-toggle {
     font-size: 2rem;
@@ -37,25 +42,20 @@
   .dropdown-menu {
     background-color: var(--button-background);
     color: black;
+    font-size: 10px;
   }
   .menu-header {
     display: none;
   }
-  .firstbodyleft {
-    padding-left: 10px;
-    color: white;
-    position: absolute;
-  }
+  
   .bodyHr {
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 80px;
+    margin-left: 80px;
     opacity: 1;
     border-radius: 10px;
+    margin-bottom: 20px;
   }
-  .bodyHres,
-  .bodyHrs,
-  .fifthbodyHr,
-  .sixthbodyHr {
+  .bodyHres,.bodyHrs,.fifthbodyHr,.sixthbodyHr {
     margin-right: 120px;
     margin-left: 120px;
     opacity: 20;
@@ -86,8 +86,7 @@
     font-weight: 700;
     color: white;
   }
-  .logoaxs,
-  .logo-color {
+  .logoaxs, .logo-color {
     font-size: 20px;
   }
   .logo-colors {
@@ -96,14 +95,17 @@
     color: var(--button-background);
   }
   .firstbody-content {
-    font-size: 15px;
+    font-size: 10px;
     font-family: var(--font-Raleway);
+  }
+  .firstText{
+    margin-bottom: 20px;
   }
   .modal-trial {
     background-color: white;
-    width: 200px;
-    top: 190px;
-    right: -95px;
+    width: 150px;
+    top: 130px;
+    right: -80px;
     border-radius: 5px;
     position: absolute;
   }
@@ -111,12 +113,13 @@
     padding: 5px;
     padding-left: 30px;
   }
-  #usernames,
-  #email,
-  #password {
+  .error{
+    font-size: 8px;
+  }
+  #usernames, #email, #password {
     margin-bottom: 5px;
     outline: none;
-    width: 170px;
+    width: 120px;
     font-size: 8px;
     margin-left: -20px;
   }
@@ -152,6 +155,7 @@
     border-color: white;
     border-style: solid;
     font-size: 10px;
+    width:100px;
   }
   .downloadBtn {
     border: none;
@@ -180,7 +184,7 @@
   .menu-body {
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 20px;
     justify-content: center;
     width: 100%;
   }
@@ -200,8 +204,11 @@
   }
   #collapseWidthExample {
     width: 300px;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 50px;
     text-align: center;
+  }
+  .spaceText{
+    margin: 10px;
   }
   .text {
     color: var(--text-color);
@@ -210,7 +217,7 @@
   }
   .secondBodyImg {
     width: 170px;
-    height: 150px;
+    height: 130px;
     margin-left: 90px;
   }
   .third-body {
@@ -220,12 +227,12 @@
   .cityImg {
     width: 250px;
     height: 150px;
-    margin-left: 40px;
+    margin-left: 50px;
     border-radius: 10px;
   }
   .thirdBodyRight {
     text-align: center;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .navlink {
     font-size: 10px;
@@ -249,8 +256,7 @@
     display: block;
   }
   .fourthBodyLeft {
-    padding: 10px;
-    padding-right: 40px;
+    padding: 40px;
     width: 100%;
     text-align: center;
   }
@@ -262,7 +268,6 @@
     padding: 0px;
     margin-right: 10px;
   }
-
   .fifthBodyOption {
     display: block;
   }
@@ -277,25 +282,20 @@
     left: 83px;
     font-size: 2.5rem !important;
   }
-  .bi-lightbulb,
-  .bi-keyboard,
-  .bi-lightning-fill {
+  .bi-lightbulb, .bi-keyboard, .bi-lightning-fill {
     font-size: 1.5rem !important;
   }
   .sixthBodyImg {
-    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 220px;
   }
   .sixthBodyContent {
     position: absolute;
     width: 100%;
     text-align: center;
     padding: 40px;
-    padding-left: 10px;
   }
-  .fifthBodyTitle,
-  .seventhBodyTitle {
+  .fifthBodyTitle, .seventhBodyTitle {
     font-size: 17px;
   }
   .sixthBodyTitle {
@@ -308,7 +308,7 @@
   .seventhBodyContent {
     width: 100%;
     text-align: center;
-    padding: 20px 50px 20px 20px;
+    padding: 20px 40px 20px 40px;
   }
   .sevenBodyForm {
     display: flex;
@@ -338,3 +338,4 @@
     font-size: 1rem !important;
   }
  
+}
