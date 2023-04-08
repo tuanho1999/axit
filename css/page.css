@@ -156,11 +156,11 @@
   display: flex;
   flex-direction: column;
   padding: 120px 0px 0px 100px;
-  width: 200px;
+  width: 15%;
   margin-right: 50px;
 }
 .mainSecondBody {
-  width: 300px;
+  width: 20%;
   margin-right: 200px;
 }
 .tabBtn {
@@ -190,6 +190,9 @@
 }
 .downloadBtn:hover {
   background-color: rgb(189, 103, 41);
+}
+.secondBodyImage{
+  width: 30%
 }
 .secondBodyImg {
   margin: 100px;
